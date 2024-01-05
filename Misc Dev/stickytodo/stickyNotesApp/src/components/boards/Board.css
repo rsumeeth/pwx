@@ -1,0 +1,6 @@
+.board{
+    background-color: #ddb83e;
+    min-width: 100vh;
+    min-height: 100vh;
+    position: relative;;
+}

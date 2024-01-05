@@ -1,0 +1,22 @@
+.sticky-note{
+    width: 250px;
+    min-height: 200px;
+    background-color: white;
+    position: absolute;
+    padding: 10px;
+    max-width: 250px;
+    word-wrap: break-word;
+    cursor: move; 
+    transition: transform 0.2s ease-in-out;
+
+}
+
+textarea {
+
+    outline: none;
+    width: 100%;
+    font: 1em sans-serif;
+    min-height: 200px;
+    resize: none;
+    border: none;
+}
