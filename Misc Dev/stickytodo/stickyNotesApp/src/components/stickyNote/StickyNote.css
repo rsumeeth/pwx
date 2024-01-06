@@ -6,9 +6,9 @@
     padding: 10px;
     max-width: 250px;
     word-wrap: break-word;
-    cursor: move; 
     transition: transform 0.2s ease-in-out;
-
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px #505050;
 }
 
 textarea {
@@ -20,3 +20,36 @@ textarea {
     resize: none;
     border: none;
 }
+
+
+.close {
+    width: 30px;
+    height: 30px;
+    background: rgb(236, 236, 236);
+    border-radius: 50%;
+    place-content: center;
+    
+    cursor: pointer;
+    border: 0px;
+    color: white;
+}
+
+.pin{
+    width: 35px;
+    height: 35px;
+    background: none;
+    border: 0;
+    cursor: pointer;
+    border:none;
+}
+
+.mini-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rotate-90 {
+    transform: rotate(-40deg);
+    transition: transform 0.2s ease-in-out;
+  }
+  

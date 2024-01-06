@@ -4,3 +4,13 @@
     min-height: 100vh;
     position: relative;;
 }
+.addNote{
+    outline: none;
+    background-color: white;
+    border: none;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+
+}
